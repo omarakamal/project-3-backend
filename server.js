@@ -5,7 +5,7 @@ const dotenv = require("dotenv").config() //this allows me to use my .env values
 const morgan = require('morgan')
 const cors = require('cors')
 const connectToDB = require('./config/db.js')
-
+const orderRoutes = require('./routes/order.routes.js')
 
 // Routes Import
 const authRoutes = require('./routes/auth.routes')
