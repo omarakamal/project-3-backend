@@ -6,6 +6,8 @@ const morgan = require('morgan')
 const cors = require('cors')
 const connectToDB = require('./config/db.js')
 const orderRoutes = require('./routes/order.routes.js')
+const productRoutes = require('./routes/product.routes.js')
+
 
 // Routes Import
 const authRoutes = require('./routes/auth.routes')
